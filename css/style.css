@@ -59,3 +59,7 @@ right: 12vh;
     margin: 30rem;
     text-align: left;
 }
+
+#gray:hover {
+    filter:saturate(100%);
+}
