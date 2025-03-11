@@ -8,10 +8,7 @@ body{
 
 h3 {
     text-align: center;
-    @font-face {
-        font-family: Estonia;
-        src: url(Estonia-Regular.ttf);
-    }
+
 }
 
 
@@ -58,8 +55,14 @@ right: 12vh;
     mask-position: 30rem;
     margin: 30rem;
     text-align: left;
+    font-family: SpecialElite-Regular;
 }
 
 #gray:hover {
     filter:saturate(100%);
+}
+
+@font-face {
+    font-family: SpecialElite-Regular;
+    src: url(..//fonts/SpecialElite-Regular.ttf);
 }
