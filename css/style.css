@@ -8,9 +8,7 @@ body{
 
 h3 {
     text-align: center;
-
 }
-
 
 button{
     background: none;
@@ -21,23 +19,14 @@ button{
     position: relative;
 }
 
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
-
-.text{
-font-size: 12vh;
-position: relative;
-top: 12vh;
-right: 12vh;
-}
-
 .grid-container{
     width: auto;
-    height: 70rem;
+    height: 60rem;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -56,10 +45,11 @@ right: 12vh;
     margin: 30rem;
     text-align: left;
     font-family: SpecialElite-Regular;
+    align-content: center;
 }
 
 #gray:hover {
-    filter:saturate(100%);
+    filter:url();
 }
 
 @font-face {
