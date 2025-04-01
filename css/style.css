@@ -26,7 +26,7 @@ button{
 
 .grid-container{
     width: auto;
-    height: 60rem;
+    height: 70rem;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -41,11 +41,8 @@ button{
 }
 
 .intro {
-    mask-position: 30rem;
-    margin: 30rem;
-    text-align: left;
     font-family: SpecialElite-Regular;
-    align-content: center;
+    text-align: left;
 }
 
 #gray:hover {
