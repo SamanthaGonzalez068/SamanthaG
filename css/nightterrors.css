@@ -1,0 +1,32 @@
+
+h1 {
+    font-family: Estonia-Regular;
+    text-align: center;
+    color: aliceblue;
+}
+
+body{
+    font-family: SpecialElite-Regular;
+    background-color: rgb(0, 0, 0);
+    background-image:url();
+    }
+
+b{
+    color: aliceblue;
+    align-content: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: SpecialElite-Regular;
+    src: url(..//fonts/SpecialElite-Regular.ttf);
+}
+
+@font-face {
+    font-family: Estonia-Regular;
+    src: url(..//fonts/Estonia-Regular.ttf);
+}
