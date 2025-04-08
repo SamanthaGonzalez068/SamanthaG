@@ -34,4 +34,4 @@ function showSlide(n) {
 
 setInterval(function() {
     moveSlide(1);
-}, 10000); 
+}, 30000); 
