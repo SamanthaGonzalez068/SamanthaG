@@ -9,6 +9,7 @@ body{
     font-family: SpecialElite-Regular;
     background-color: rgb(0, 0, 0);
     background-image:url();
+    cursor: url('/images/Cursor.png'),auto;
     }
 
 b{
@@ -27,9 +28,10 @@ img{
 }
 
 @font-face {
-    font-family: Estonia-Regular;
-    src: url(..//fonts/Estonia-Regular.ttf);
+  font-family: RIMONS;
+  src: url(..//fonts/RIMONS.ttf);
 }
+
 
 .carousel-container {
     position: relative;

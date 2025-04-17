@@ -3,6 +3,7 @@ h1 {text-align: center;}
 body{
     background-color: rgb(0, 0, 0);
     background-image:url();
+    cursor: url('/images/Cursor.png'),auto;
     }
 
 h3 {
@@ -50,16 +51,18 @@ button{
 }
 
 .intro {
-    font-family: SpecialElite-Regular;
+    font-family: RIMONS;
     text-align: left;
     padding: 0;
 
 }
 
 @font-face {
-    font-family: SpecialElite-Regular;
-    src: url(..//fonts/SpecialElite-Regular.ttf);
+    font-family: RIMONS;
+    src: url(..//fonts/RIMONS.ttf);
 }
+
+
 
 
 body {
@@ -106,8 +109,11 @@ nav {
     border-radius: 5px; 
 }
 
+
+
+
 .containerbooks{
-    border: solid red 2px;
+    border: solid rgb(0, 0, 0) 2px;
     width: 100%;
     height: 40rem;
     position: relative;
@@ -115,13 +121,49 @@ nav {
 }
 
 #containerbooksimage {
-width: 50%;
+width: 45%;
 height: auto;
-border: solid cyan 2px;
+border: solid rgb(0, 0, 0) 2px;
 }
 
 #containerbookstext{
-    width: 50%;
+    width: 45%;
     height: auto;
-border: solid purple 2px;
+border: solid rgb(0, 0, 0) 2px;
 }
+
+
+
+
+footer {
+    background-color: black; 
+    color:white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; 
+    margin: 20px auto;
+ }
+
+input, textarea {
+    margin: 10px 0; 
+    padding: 10px; 
+    width: 100%;
+}
+
+.contactb {
+    background-color:#000000;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.contactb:hover { 
+    background-color: #ff0000;  
+}
+    
