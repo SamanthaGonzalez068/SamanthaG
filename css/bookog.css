@@ -1,0 +1,33 @@
+h1 {
+    font-family: Estonia-Regular;
+    text-align: center;
+    color: aliceblue;
+}
+
+body{
+    font-family: SpecialElite-Regular;
+    background-color: rgb(0, 0, 0);
+    background-image:url();
+    cursor: url('/images/Cursor.png'),auto;
+    }
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: SpecialElite-Regular;
+    src: url(..//fonts/SpecialElite-Regular.ttf);
+}
+
+@font-face {
+  font-family: RIMONS;
+  src: url(..//fonts/RIMONS.ttf);
+}
+
+.centered-text {
+  text-align: center;
+  margin: 60px; /* add margin around the element */
+  color: aliceblue;
+}
